@@ -1,19 +1,19 @@
-.navbar {
-    background-color: white;
+.footer {
+    background-color: rgb(20, 19, 19);
     padding: 15px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    margin-top: 10%;
 
 }
 
-.navbar a {
+.footer a {
     text-decoration: none;
     padding: 25px;
-    color: black;
-   
+    color: rgb(76, 134, 84);
+    font-weight:lighter ;
 
 }

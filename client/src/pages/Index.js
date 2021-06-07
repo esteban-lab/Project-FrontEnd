@@ -1,5 +1,5 @@
-import React from 'react'
 import '../styles/Index.css';
+import ShoppingCart from '../components/ShoppingCart';
 
 export default function Index() {
 
@@ -12,6 +12,7 @@ export default function Index() {
 
     const LOGO_1 = 'images/IMG_1.jpg';
     return (
+
         <div>
             <div className="container-main">
                 <img src={LOGO_1} alt="" />
@@ -19,7 +20,8 @@ export default function Index() {
                 <h1>El arte de las kokedamas, inspirado en la pasión japonesa por el cuidado y creacion de nuevas 
                     formas de representacion de la naturaleza  </h1>       
             </div>
-
+            <ShoppingCart />
+                
                 <hr/>
             <h1 className = "bestsellers"> Best Sellers </h1>
             <div className = "container-img">

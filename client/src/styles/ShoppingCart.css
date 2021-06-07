@@ -1,0 +1,17 @@
+.shoppingCart{
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    background-image: url(../images/cart.jpeg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 1px 1px 5px grey;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 40px;
+    
+  }
+
+    
+    
+

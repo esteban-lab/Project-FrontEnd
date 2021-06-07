@@ -3,6 +3,13 @@ import {BrowserRouter, Route, Switch} from  'react-router-dom';
 import Index from '../pages/Index';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import Faqs from '../pages/Faqs';
+import Catalogo from '../pages/Catalogo';
+import Talleres from '../pages/Talleres';
+import SobreNosotros from '../pages/SobreNosotros';
+import Contacto from '../pages/Contacto';
+
+
 
 export default function Router() {
     return (
@@ -10,7 +17,12 @@ export default function Router() {
         <BrowserRouter>
             <Navbar />
             <Switch>
-                 <Route exact path ="/" component={Index} />
+                 <Route exact path ="/"   component={Index}/>
+                 <Route path = "/faqs"    component={Faqs}/>
+                 <Route path = "/catalogo"component={Catalogo}/>
+                 <Route path = "/talleres"component={Talleres}/>
+                 <Route path = "/sobreNosotros" component={SobreNosotros}/>
+                 <Route path = "/contacto"component={Contacto}/>
             </Switch>
             <Footer/>
         </BrowserRouter>

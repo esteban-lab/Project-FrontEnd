@@ -1,0 +1,32 @@
+.containerFaqs{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+p{
+    text-align: center;
+    margin:0px auto;
+    width: 50%;
+ 
+}
+
+.imageFaqs{
+    margin: auto;
+    width: 500px ;
+}
+
+.imageFaqs img{
+    width: 500px;
+    
+}
+

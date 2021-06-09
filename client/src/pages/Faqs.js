@@ -8,7 +8,7 @@ export default function Faqs() {
 
             <hr/>
 
-            <h2>ACERCA DE LA KOKEDAMA Y LAS PLANTAS</h2>
+            <h2 className="faqs-title">ACERCA DE LA KOKEDAMA Y LAS PLANTAS</h2>
             <div className="imageFaqs" ><img  src="../images/kokedama1.jpeg" alt=""/></div>
             <p>
                     ¿Qué es una kokedama?

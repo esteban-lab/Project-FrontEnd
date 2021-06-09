@@ -7,12 +7,13 @@ export default function Navbar() {
     return (
         <div className = "navbar">
                 <img src={LOGO_1} alt=""/>
-                <NavLink to = "/">Home</NavLink>  
+                <NavLink to = "/">Home</NavLink> 
                 <NavLink to = "/catalogo">Catalogo</NavLink>
                 <NavLink to = "/talleres">Talleres</NavLink>
                 <NavLink to = "/sobreNosotros">Sobre Nosotros</NavLink>
                 <NavLink to = "/faqs">FAQs</NavLink>
-                <NavLink to = "/contacto">Contacto</NavLink>            
+                <NavLink to = "/contacto">Contacto</NavLink>   
+                <NavLink to = "/login">Login</NavLink>         
         </div>
     )
 }

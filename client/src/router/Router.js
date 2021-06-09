@@ -8,6 +8,8 @@ import Catalogo from '../pages/Catalogo';
 import Talleres from '../pages/Talleres';
 import SobreNosotros from '../pages/SobreNosotros';
 import Contacto from '../pages/Contacto';
+import Login from '../pages/Login';
+
 
 
 
@@ -23,6 +25,7 @@ export default function Router() {
                  <Route path = "/talleres"component={Talleres}/>
                  <Route path = "/sobreNosotros" component={SobreNosotros}/>
                  <Route path = "/contacto"component={Contacto}/>
+                 <Route path = "/login"   component={Login}/>
             </Switch>
             <Footer/>
         </BrowserRouter>

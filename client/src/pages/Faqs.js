@@ -16,6 +16,8 @@ export default function Faqs() {
                 ¿Cómo riego mi kokedama?
                 Regar una kokedama es fácil y entretenido. Se riega por inmersión. Los pasos a seguir son:
             </p>
+            <h2 className="kokedamasCuidados">Cuidados de las kokedamas</h2>
+            <div className="imageContacto1" ><img  src="../images/cuidadoskokedama.jpeg" alt=""/></div>
         </div>
     )
 }

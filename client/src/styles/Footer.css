@@ -17,3 +17,8 @@
     font-weight:lighter ;
 
 }
+
+.footer :hover{
+    color: rgb(138, 196, 152);
+
+}

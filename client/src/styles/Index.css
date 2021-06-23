@@ -26,6 +26,7 @@
     text-align: center;
     margin-bottom: 10px;
     margin-top: 10px;
+    
 }
 
 .container-img .price{
@@ -58,3 +59,15 @@ hr{
     width: 40% ;
     margin: 100px auto;
 }
+
+.linkonebyone {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.linkonebyone :hover{
+    color:rgb(60, 141, 60)
+}
+
+

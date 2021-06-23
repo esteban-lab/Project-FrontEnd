@@ -25,12 +25,12 @@ export default function Index() {
                 <hr/>
             <h1 className = "bestsellers"> Best Sellers </h1>
             <div className = "container-img">
-                <div><img src={PHOTO_1} alt=""/><p>Arbol de Jade Kokedama</p><p className="price">€25</p></div>
-                <div><img src={PHOTO_2} alt=""/><p>Ficus Ginseng Kokedama </p><p className="price">€39</p></div>
-                <div><img src={PHOTO_3} alt=""/><p>Cham Kokedama</p><p className="price">€27</p></div>
-                <div><img src={PHOTO_4} alt=""/><p>Esparraguera Kokedama</p><p className="price">€25</p></div>
-                <div><img src={PHOTO_5} alt=""/><p>Orquidea blanca Kokedama</p><p className="price">€29</p></div>
-                <div><img src={PHOTO_6} alt=""/><p>Marginata Kokedama</p><p className="price">€35</p></div>
+                <div><img src={PHOTO_1} alt=""/><a href="" className="linkonebyone"><p>Arbol de Jade Kokedama</p></a><p className="price">€25</p></div>
+                <div><img src={PHOTO_2} alt=""/><a href="" className="linkonebyone"><p>Ficus Ginseng Kokedama </p></a><p className="price">€39</p></div>
+                <div><img src={PHOTO_3} alt=""/><a href="" className="linkonebyone"><p>Cham Kokedama</p></a><p className="price">€27</p></div>
+                <div><img src={PHOTO_4} alt=""/><a href="" className="linkonebyone"><p>Esparraguera Kokedama</p></a><p className="price">€25</p></div>
+                <div><img src={PHOTO_5} alt=""/><a href="" className="linkonebyone"><p>Orquidea blanca Kokedama</p></a><p className="price">€29</p></div>
+                <div><img src={PHOTO_6} alt=""/><a href="" className="linkonebyone"><p>Marginata Kokedama</p></a><p className="price">€35</p></div>
             </div>
         </div>
     )

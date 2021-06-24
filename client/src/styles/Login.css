@@ -6,16 +6,19 @@
     border-radius: 10px;
     padding: 60px;
     margin-bottom: 60px;
+    margin-top: 100px;
    
 }
 
 .login-title{
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .inputs-form{
     width: 100%;
+    
+    
 }
 
 .login-form button{
@@ -27,5 +30,21 @@
 .login-form .inputs-form input, 
 .login-form .inputs-form label{
     width: 100%;
+    
+   
 
 } 
+.forgot{
+    text-decoration: none;
+    color:rgb(46, 117, 52);
+    margin-bottom: 5px;
+    
+
+}
+.register{
+    text-decoration: none;
+    color:rgb(46, 117, 52);
+}
+.EmailInput{
+    margin-bottom: 20px;
+}

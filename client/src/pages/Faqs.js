@@ -16,8 +16,19 @@ export default function Faqs() {
                 ¿Cómo riego mi kokedama?
                 Regar una kokedama es fácil y entretenido. Se riega por inmersión. Los pasos a seguir son:
             </p>
-            <h2 className="kokedamasCuidados">Cuidados de las kokedamas</h2>
+            <h2 className="kokedamasCuidados">CUIDADOS DE LAS KOKEDAMAS</h2>
             <div className="imageContacto1" ><img  src="../images/cuidadoskokedama.jpeg" alt=""/></div>
+            <p>
+                    La practicidad que representa cuidar una kokedama es el aliado mas importante de nuestro arte
+                    Una planta hecha kokedama puede durar hasta 2 semanas sin agua (dependiendo de la temporada), 
+            </p>        
+            <hr/>   
+            <div className="kokedamaBottom" ><img  src="../images/kokedama2.jpg" alt=""/></div>    
+
+            <p>
+                    AHORA... ¿EN QUE PARTE DE TU HOGAR LA PONDRIAS? 
+            </p> 
+            
         </div>
     )
 }

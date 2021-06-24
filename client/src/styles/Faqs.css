@@ -5,18 +5,21 @@
 h1{
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    font-size: 40px;
 }
 
 .faqs-title{
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 p{
     text-align: center;
     margin:0px auto;
     width: 50%;
+    margin-top: 50px;
+    margin-bottom: 150px;
  
 }
 
@@ -26,6 +29,7 @@ p{
 }
 
 .imageFaqs img{
+    margin-top: 60px;
     width: 500px;
     
 }
@@ -34,4 +38,37 @@ hr{
   
     width: 40% ;
     margin: 100px auto;
+}
+.kokedamasCuidados{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+.imageContacto1 {
+    margin: auto;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.imageContacto1 img {
+    margin-top: 50px;
+}
+
+.kokedamaBottom{
+    margin: auto;
+    width: 500px ;
+}
+
+
+.kokedamaBottom img{
+    margin: auto;
+    width: 500px ;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+p{
+    font-size: 25px;
 }

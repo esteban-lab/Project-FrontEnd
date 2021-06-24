@@ -14,11 +14,13 @@ export default function Index() {
     return (
 
         <div>
+            <h1 className = "KokedamasTitle">  Kokedamas </h1>
             <div className="container-main">
                 <img src={LOGO_1} alt="" />
                 
-                <h1>El arte de las kokedamas, inspirado en la pasión japonesa por el cuidado y creacion de nuevas 
-                    formas de representacion de la naturaleza  </h1>       
+                <p className="sideText">El arte de las kokedamas, inspirado en la pasión japonesa por el cuidado y creacion de nuevas 
+                    formas de representacion de la naturaleza, cuidadosamente diseñadas para transformar los espacios que tu elijas 
+                     </p>       
             </div>
             <ShoppingCart />
                 

@@ -17,9 +17,10 @@ export default function Login() {
                     </div>
                     <button type="submit" value="Log in">Accede</button>
                 </form>
-                <div>
-                    <Link to="/forgetPassword">¿Has olvidado tu contraseña?</Link>
-                    <Link to="/register">Regístrate para acceder</Link>
+                <div className="forgotRegister">
+                    <Link className="forgot" to="/forgetPassword">¿Has olvidado tu contraseña?</Link>
+                    <br/>
+                    <Link className="register"  to="/register">Regístrate para acceder</Link>
                 </div>
     </div>
     

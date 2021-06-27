@@ -1,10 +1,14 @@
 
 import '../styles/Login.css';
 import {Link} from 'react-router-dom';
+import ShoppingCart from '../components/ShoppingCart';
  
 export default function Login() {
     return (
-    <div className="login-form">
+        
+    <div>
+        <ShoppingCart/>
+        <div className="login-form">
                 <h2 className="login-title">Accede a tu cuenta</h2>
                 <form action="text" method="get">
                     <div className="inputs-form">
@@ -22,6 +26,7 @@ export default function Login() {
                     <br/>
                     <Link className="register"  to="/register">Regístrate para acceder</Link>
                 </div>
+    </div>
     </div>
     
     )

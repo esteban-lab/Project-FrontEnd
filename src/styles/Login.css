@@ -38,12 +38,16 @@
     text-decoration: none;
     color:rgb(46, 117, 52);
     margin-bottom: 5px;
-    
-
+}
+.forgot:hover{
+    color: rgb(77, 158, 89);
 }
 .register{
     text-decoration: none;
     color:rgb(46, 117, 52);
+}
+.register:hover{
+    color: rgb(77, 158, 89);
 }
 .EmailInput{
     margin-bottom: 20px;

@@ -1,0 +1,57 @@
+.imageContacto{
+    
+    margin: auto;
+    width: 800px ;
+}
+
+.imageContacto img{
+    
+    margin: auto;
+    width: 800px ;
+    margin-top: 80px;
+    height: 280px;
+    border-radius: 5px;
+    
+}
+
+.paragraph{
+    text-align: center;
+    text-align: justify;
+    width: 40%;
+}
+
+.register-form{
+    margin: auto;
+    width: 30%;
+}
+
+.inputs-form{
+    width: 100px;
+    padding: 10px;
+}
+.comments-button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-contact{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link-login{
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-size: 30px;
+    
+}
+.link-login:hover{
+    color: rgb(63, 156, 67);
+    
+}
+.container-login{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}

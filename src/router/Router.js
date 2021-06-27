@@ -9,6 +9,7 @@ import Talleres from '../pages/Talleres';
 import SobreNosotros from '../pages/SobreNosotros';
 import Contacto from '../pages/Contacto';
 import Login from '../pages/Login';
+import ShoppingCart from '../components/ShoppingCart';
 
 
 
@@ -17,7 +18,7 @@ export default function Router() {
     return (
         <div>
         <BrowserRouter>
-            <Navbar />
+            <Navbar />        
             <Switch>
                  <Route exact path ="/"   component={Index}/>
                  <Route path = "/faqs"    component={Faqs}/>

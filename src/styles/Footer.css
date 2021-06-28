@@ -7,18 +7,20 @@
     font-size: 1.3em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 10%;
+    height: 200px;
 
 }
 
 .footer a {
     text-decoration: none;
     padding: 25px;
-    color: rgb(76, 134, 84);
+    color: rgb(138, 196, 152);;
     font-weight:lighter ;
+    font-size: 30px;
 
 }
 
 .footer :hover{
-    color: rgb(138, 196, 152);
+    color: white;
 
 }

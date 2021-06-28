@@ -1,3 +1,6 @@
+.container-contacto{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .imageContacto{
     
     margin: auto;
@@ -22,16 +25,19 @@
 
 .register-form{
     margin: auto;
-    width: 30%;
+    width: 40%;
+    
 }
 
 .inputs-form{
     width: 100px;
     padding: 10px;
+    font-size: 25px;
 }
 .comments-button{
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 
 .input-contact{

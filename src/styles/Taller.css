@@ -1,0 +1,17 @@
+
+.container-talleres{
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.imageTaller img{
+    height: 650px;
+    width: 500px;
+    margin-bottom: 70px;
+}
+.imageTaller {
+    width: 35%;
+    margin: auto;
+}
+.container-talleres p{
+    text-align: justify;
+
+}

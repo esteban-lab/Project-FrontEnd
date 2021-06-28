@@ -16,7 +16,7 @@ export default function Register({setContacts}) {
 
     
     return (
-        <div>
+        <div className="container-contacto">
             <ShoppingCart/>
             <div className="imageContacto" ><img  src="../images/Kokedamagrupo.jpeg" alt=""/></div>
                 <h1>Contacto</h1>
@@ -29,11 +29,9 @@ export default function Register({setContacts}) {
                     Si quieres realizar un pedido especial, comentarnos una propuesta de colaboración o quieres saber más cosas acerca de nosotros,
                     escríbenos a contact@pieceofnature.com
                 <br/>
-                <br/><br/><br/><br/>
-
-                    Para cualquier otra cosa, ¡escríbenos aquí!
+                <br/>
                 </p>
-                
+                <p> Para cualquier otra cosa, ¡escríbenos aquí!</p>
                 <div className="register-form">
                     {/* <fieldset> */}
                     {/* <legend>Forma parte de nuestra comunidad</legend> */}

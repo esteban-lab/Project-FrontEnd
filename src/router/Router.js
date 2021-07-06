@@ -10,6 +10,8 @@ import SobreNosotros from '../pages/SobreNosotros';
 import Contacto from '../pages/Contacto';
 import Login from '../pages/Login';
 import ShoppingCart from '../components/ShoppingCart';
+import Cart1 from '../pages/Cart1';
+
 
 
 
@@ -27,6 +29,7 @@ export default function Router() {
                  <Route path = "/sobreNosotros" component={SobreNosotros}/>
                  <Route path = "/contacto"component={Contacto}/>
                  <Route path = "/login"   component={Login}/>
+                 <Route path = "/cart1"   component={Cart1}/>
             </Switch>
             <Footer/>
         </BrowserRouter>

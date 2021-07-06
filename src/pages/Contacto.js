@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Contacto.css';
 import ShoppingCart from '../components/ShoppingCart';
-import { Link, useParams } from 'react-router-dom';
+import { Link  } from 'react-router-dom';
 import { useForm } from '../hooks/useForm';
 
 export default function Register({setContacts}) {
